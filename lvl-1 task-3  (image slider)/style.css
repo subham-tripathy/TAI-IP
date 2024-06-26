@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Roboto;
+    src: url('RobotoSlab-VariableFont_wght.ttf');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .5s;
+}
+
+body {
+    font-family: Roboto;
+    background: url('./images/bg.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+}
+
+h1#title {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    background: url('./images/bg.jpg') no-repeat;
+    background-clip: text;
+    color: transparent;
+}
+
+h1#title::before {
+    content: "Image Slider";
+    z-index: -1;
+    position: absolute;
+    text-shadow: .5px .5px 2px black;
+}
+
+#prev,
+#next {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#prev img,
+#next img {
+    height: 50px;
+}
+
+#ImageSlider {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sliderContainerSection {
+    width: 70%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sliderContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 97%;
+    scroll-behavior: smooth;
+}
+
+.sliderIMG {
+    border: 2px solid white;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    position: absolute;
+    height: 90%;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #sliderContainerSection {
+        width: 70%;
+        height: 30%;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sliderIMG {
+        position: absolute;
+        height: auto;
+        width: 100%;
+    }
+}

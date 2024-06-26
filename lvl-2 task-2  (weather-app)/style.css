@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Roboto;
+    src: url('RobotoSlab-VariableFont_wght.ttf');
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    color: white;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon {
+    width: 30px;
+}
+
+.container {
+    height: max-content;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.container>div {
+    display: flex;
+}
+
+.search-box {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-box input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+.search-box input::placeholder {
+    color: white;
+}
+
+.search-box button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#cloud {
+    position: relative;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#temp {
+    position: relative;
+    flex-direction: column;
+    font-size: 25px;
+    margin-bottom: 8%;
+}
+
+#temp sup {
+    font-size: 25px;
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe-page.css">
+    <title>Sushi Recipe Page</title>
+</head>
+
+<body>
+    <nav>
+        <h1><a href="./">Recipe Page</a></h1>
+        <div style="display: flex;">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+            </ul>
+            <div id="search" style="position: relative;">
+                <div id="searchInput">
+                    <img src="./images/search-icon.png">
+                    <input type="search" id="search" placeholder="Search Food">
+                </div>
+                <div id="searchResult"></div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    
+    <section id="recipeName" style="background-image: url('./images/recipe-page-sushi-bg.jpg');">
+        <h1>Sushi</h1>
+    </section>
+
+
+
+
+    <section style="width: 100%;">
+        <div id="carousel">
+
+            <button class="carouselBTN" id="left">Prev</button>
+            <button class="carouselBTN" id="right">Next</button>
+
+            <div class="carouselDiv"
+                style="background-position: bottom; background-image: url('./images/recipe-page-sushi-bg-1.jpg');">
+            </div>
+            <div class="carouselDiv"
+                style="background-position: bottom; background-image: url('./images/recipe-page-sushi-bg-2.jpg');">
+            </div>
+            <div class="carouselDiv"
+                style="background-position: bottom; background-image: url('./images/recipe-page-sushi-bg-3.jpg');">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <h1 style="font-size: 40px;">Sushi</h1>
+        <p id="time">Time: 15 min</p>
+    </section>
+
+    <section id="prepare" style="margin-top: 50px;">
+        <div style="width: 55%;" id="HowToPrepare">
+            <h1>How to Prepare</h1>
+            <ul>
+                <h4>1. Prepare the Sushi Rice:</h4>
+                <li>
+                    <span>01.</span>
+                    <p>
+                        Rinse the Rice:
+                        <br>
+                        - Rinse 2 cups of sushi rice under cold water until the water runs clear.
+                    </p>
+                </li>
+                <li>
+                    <span>02.</span>
+                    <p>
+                        Cook the Rice:
+                        <br>
+                        - Combine the rinsed rice with 2 cups of water in a rice cooker or pot. Cook according
+                        to
+                        the rice cooker instructions or bring to a boil, then reduce heat to low, cover, and
+                        simmer
+                        for about 18-20 minutes. Let it rest for 10 minutes.
+                    </p>
+                </li>
+                <li>
+                    <span>03.</span>
+                    <p>
+                        Season the Rice:
+                        <br>
+                        - In a small saucepan, mix 1/4 cup rice vinegar, 2 tablespoons sugar, and 1 teaspoon
+                        salt.
+                        Heat until the sugar and salt dissolve.
+                        <br>
+                        - Transfer the cooked rice to a large bowl and gently fold in the vinegar mixture using
+                        a
+                        wooden spoon or rice paddle. Let the rice cool to room temperature.
+                    </p>
+                </li>
+
+
+
+                <h4>2. Prepare the Fillings and Toppings:</h4>
+                <li>
+                    <span>04.</span>
+                    <p>
+                        Slice the Fish:
+                        <br>
+                        - Using a sharp knife, slice the raw fish into thin strips for nigiri or small pieces
+                        for
+                        rolls.
+                    </p>
+                </li>
+                <li>
+                    <span>05.</span>
+                    <p>
+                        Prepare Vegetables:
+                        <br>
+                        - Cut vegetables like cucumber, avocado, and carrot into thin strips.
+                    </p>
+                </li>
+
+
+
+                <li>
+                    <span>06.</span>
+                    <p>
+                        Prepare Other Ingredients:
+                        <br>
+                        - Have nori sheets, wasabi, soy sauce, pickled ginger, and any optional ingredients
+                        ready.
+                    </p>
+                </li>
+
+
+
+                <h4>3. Make Nigiri Sushi:</h4>
+                <li>
+                    <span>07.</span>
+                    <p>
+                        Shape the Rice:
+                        <br>
+                        - Wet your hands with water and a little rice vinegar to prevent sticking. Take a small
+                        amount of rice (about 2 tablespoons) and shape it into an oval.
+                    </p>
+                </li>
+                <li>
+                    <span>08.</span>
+                    <p>
+                        Top with Fish:
+                        <br>
+                        - Place a thin slice of fish over the rice and press gently to adhere.
+                    </p>
+                </li>
+                <li>
+                    <span>09.</span>
+                    <p>
+                        Add Wasabi:
+                        <br>
+                        - Optionally, add a small dab of wasabi between the rice and fish.
+                    </p>
+                </li>
+
+
+                <h4>4. Make Maki (Rolled) Sushi:</h4>
+                <li>
+                    <span>10.</span>
+                    <p>
+                        Prepare the Bamboo Mat:
+                        <br>
+                        - Cover a bamboo sushi mat with plastic wrap for easy cleaning.
+                    </p>
+                </li>
+                <li>
+                    <span>11.</span>
+                    <p>
+                        Place the Nori:
+                        <br>
+                        - Lay a sheet of nori, shiny side down, on the bamboo mat.
+                    </p>
+                </li>
+                <li>
+                    <span>12.</span>
+                    <p>
+                        Spread the Rice:
+                        <br>
+                        - Wet your hands and spread a thin layer of sushi rice over the nori, leaving a 1-inch
+                        border at the top edge.
+                    </p>
+                </li>
+                <li>
+                    <span>13.</span>
+                    <p>
+                        Add Fillings:
+                        <br>
+                        - Place your desired fillings (fish, vegetables) horizontally across the middle of the
+                        rice.
+                    </p>
+                </li>
+                <li>
+                    <span>14.</span>
+                    <p>
+                        Roll the Sushi:
+                        <br>
+                        - Use the bamboo mat to roll the nori tightly around the fillings, pressing firmly. Seal
+                        the edge with a little water.
+                    </p>
+                </li>
+                <li>
+                    <span>15.</span>
+                    <p>
+                        Cut the Roll:
+                        <br>
+                        - Use a sharp knife to cut the roll into bite-sized pieces. Clean the knife with a damp
+                        cloth between cuts.
+                    </p>
+                </li>
+                <h4>5. Serve:</h4>
+                <li>
+                    <span>16.</span>
+                    <p>
+                        Arrange the Sushi:
+                        <br>
+                        - Place the sushi on a serving plate. Serve with wasabi, soy sauce, and pickled ginger
+                        on the side.
+                    </p>
+                </li>
+                <li>
+                    <span>17.</span>
+                    <p>
+                        Arrange the Sushi:
+                        <br>
+                        - Place the sushi on a serving plate. Serve with wasabi, soy sauce, and pickled ginger
+                        on the side.
+                    </p>
+                </li>
+                <li>
+                    <span>17.</span>
+                    <p>
+                        Enjoy:
+                        <br>
+                        - Eat the sushi immediately for the best taste and texture.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="ingredients">
+            <h1>Ingredients</h1>
+            <ol>
+                <h4>For the Sushi Rice:</h4>
+                <li>Sushi rice (short-grain Japanese rice)</li>
+                <li>Water</li>
+                <li>Rice vinegar</li>
+                <li>Sugar</li>
+                <li>Salt</li>
+
+                <h4>For the Fillings and Toppings:</h4>
+                <li>Raw fish (such as tuna, salmon, yellowtail, or eel)</li>
+                <li>Seafood (like shrimp, crab sticks, or octopus)</li>
+                <li>Vegetables (such as cucumber, avocado, carrot, or pickled radish)</li>
+                <li>Nori (dried seaweed sheets)</li>
+                <li>Wasabi</li>
+                <li>Soy sauce</li>
+                <li>Pickled ginger (gari)</li>
+
+                <h4>Optional Ingredients:</h4>
+                <li>Toasted sesame seeds</li>
+                <li>Tempura bits (for crunch)</li>
+                <li>Cream cheese</li>
+                <li>Masago (capelin roe)</li>
+                <li>Scallions</li>
+
+                <h4>Tools:</h4>
+                <li>Bamboo sushi mat (for rolling sushi)</li>
+                <li>Sharp knife (for slicing fish and cutting rolls)</li>
+                <li>Plastic wrap (optional, to cover the bamboo mat for easier cleaning)</li>
+            </ol>
+        </div>
+    </section>
+
+
+
+
+    <hr style="opacity: 0.5;">
+    <footer>
+        <h3 style="padding-left: 100px; margin-top: 20px;">Follow Us On Instagram</h3>
+        <div>
+            <img src="./images/footer-1.jpg">
+            <img src="./images/footer-2.jpg">
+            <img src="./images/footer-3.jpg">
+            <img src="./images/footer-4.jpg">
+            <img src="./images/footer-5.jpg">
+            <img src="./images/footer-6.jpg">
+            <img src="./images/footer-7.jpg">
+        </div>
+        <p style="padding-left: 100px; margin-bottom: 20px;">Copyright ©2024 All rights reserved | This web project is
+            made by Subham Trtipathy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

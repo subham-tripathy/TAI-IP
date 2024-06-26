@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Subham's Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <img class="icon" src="./images/location.png">
+            <input id="input" type="text" placeholder="Enter City Name">
+            <button><img class="icon" src="./images/search-icon.png"></button>
+        </div>
+        <h1>Location: <span id="location">Gunupur</span></h1>
+        <img id="cloud" src="./images/cloud.png">
+        <div id="temp">
+            <h1>16 <sup>°C</sup></h1>
+            <p>Broken Clouds</p>
+        </div>
+        <div style="justify-content: space-between; padding: 0 10%;">
+            <div id="humidity" style="display: flex; font-size: 20px;">
+                <img src="./images/humidity-icon.png" width="50px" style="margin-right: 10px;">
+                <div style="display: flex; flex-direction: column; justify-content: space-around;">
+                    <h3>0%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div id="wind-speed" style="display: flex; font-size: 20px;">
+                <img src="./images/wind-speed-icon.png" width="50px" style="margin-right: 10px;">
+                <div style="display: flex; flex-direction: column; justify-content: space-around;">
+                    <h3>0%</h3>
+                    <p>km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

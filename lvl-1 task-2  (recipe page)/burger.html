@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe-page.css">
+    <title>Burger Recipe Page</title>
+</head>
+
+<body>
+    <nav>
+        <h1><a href="./">Recipe Page</a></h1>
+        <div style="display: flex;">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+            </ul>
+            <div id="search" style="position: relative;">
+                <div id="searchInput">
+                    <img src="./images/search-icon.png">
+                    <input type="search" id="search" placeholder="Search Food">
+                </div>
+                <div id="searchResult"></div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    
+    <section id="recipeName" style="background-image: url('./images/recipe-page-buger-bg.jpg');">
+        <h1>Burger</h1>
+    </section>
+
+
+
+
+    <section style="width: 100%;">
+        <div id="carousel">
+
+            <button class="carouselBTN" id="left">Prev</button>
+            <button class="carouselBTN" id="right">Next</button>
+
+            <div class="carouselDiv"
+                style="background-position: bottom; background-image: url('./images/recipe-page-buger-bg-1.jpg');">
+            </div>
+            <div class="carouselDiv"
+                style="background-position: bottom; background-image: url('./images/recipe-page-buger-bg-2.jpg');">
+            </div>
+            <div class="carouselDiv"
+                style="background-position: bottom; background-image: url('./images/recipe-page-buger-bg-3.jpg');">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <h1 style="font-size: 40px;">Burger</h1>
+        <p id="time">Time: 15 min</p>
+    </section>
+
+    <section id="prepare" style="margin-top: 50px;">
+        <div style="width: 55%;" id="HowToPrepare">
+            <h1>How to Prepare</h1>
+            <ul>
+
+
+                <h4>1. Prepare the Patty:</h4>
+                <li>
+                    <span>01.</span>
+                    <p>
+                        Combine Ingredients:
+                        <br>
+                        - In a bowl, mix the ground beef with salt, black pepper, and any optional seasonings (like
+                        garlic powder, onion powder, or paprika) until evenly combined.
+                    </p>
+                </li>
+                <li>
+                    <span>02.</span>
+                    <p>
+                        Form Patties:
+                        <br>
+                        - Divide the mixture into equal portions and shape each portion into a patty, about 3/4 inch
+                        thick. Make a slight indentation in the center of each patty to prevent them from puffing up
+                        while cooking.
+                    </p>
+                </li>
+
+
+                <h4>2. Cook the Patties:</h4>
+                <li>
+                    <span>03.</span>
+                    <p>
+                        Preheat:
+                        <br>
+                        - Preheat a grill, skillet, or frying pan over medium-high heat. If using a skillet or pan, add
+                        a little oil to prevent sticking.
+                    </p>
+                </li>
+                <li>
+                    <span>04.</span>
+                    <p>
+                        Cook:
+                        <br>
+                        - Place the patties on the hot surface. Cook for about 3-4 minutes on each side for medium
+                        doneness, or adjust the time based on your preferred level of doneness. Avoid pressing down on
+                        the patties with a spatula, as this can release juices and make the burgers dry.
+                    </p>
+                </li>
+                <li>
+                    <span>05.</span>
+                    <p>
+                        Add Cheese:
+                        <br>
+                        - If using cheese, place a slice on each patty during the last minute of cooking. Cover the
+                        grill or pan to melt the cheese.
+                    </p>
+                </li>
+
+
+
+                <h4>3. Toast the Buns:</h4>
+                <li>
+                    <span>06.</span>
+                    <p>
+                        Butter and Toast:
+                        <br>
+                        - Spread a thin layer of butter on the cut sides of the hamburger buns. Place the buns, buttered
+                        side down, on the grill or in a separate pan. Toast until golden brown, about 1-2 minutes.
+                    </p>
+                </li>
+
+
+
+                <h4>4. Assemble the Burger:</h4>
+                <li>
+                    <span>07.</span>
+                    <p>
+                        Layer the Ingredients:
+                        <br>
+                        - Spread condiments (ketchup, mustard, mayonnaise) on the bottom half of the toasted buns.
+                        <br>
+                        - Add lettuce, tomato slices, and onion slices.
+                        <br>
+                        - Place the cooked patty with melted cheese on top of the vegetables.
+                        <br>
+                        - Add pickles and any other desired toppings (bacon, avocado, jalapeños, mushrooms, fried egg,
+                        BBQ sauce).
+                    </p>
+                </li>
+                <li>
+                    <span>08.</span>
+                    <p>
+                        Top it Off:
+                        <br>
+                        - Cover with the top half of the bun.
+                    </p>
+                </li>
+
+
+
+                <h4>5. Serve:</h4>
+                <li>
+                    <span>09.</span>
+                    <p>
+                        - Serve the assembled burgers immediately with your favorite sides like fries, salad, or
+                        coleslaw. Enjoy!
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="ingredients">
+            <h1>Ingredients</h1>
+            <ol>
+                <h4>For the Patty:</h4>
+                <li>Ground beef (or alternative protein like chicken, turkey, or plant-based options)</li>
+                <li>Salt</li>
+                <li>Black pepper</li>
+                <li>Optional seasonings (garlic powder, onion powder, paprika)</li>
+
+                <h4>For the Bun:</h4>
+                <li>Hamburger buns (sesame, brioche, whole wheat, etc.)</li>
+
+                <h4>For Assembly:</h4>
+                <li>Cheese slices (cheddar, American, Swiss, etc.)</li>
+                <li>Lettuce leaves</li>
+                <li>Tomato slices</li>
+                <li>Onion slices (red or white)</li>
+                <li>Pickles</li>
+                <li>Ketchup</li>
+                <li>Mustard</li>
+                <li>Mayonnaise</li>
+
+                <h4>Optional Toppings:</h4>
+                <li>Bacon</li>
+                <li>Avocado slices</li>
+                <li>Jalapeños</li>
+                <li>Mushrooms</li>
+                <li>Fried egg</li>
+                <li>BBQ sauce</li>
+
+                <h4>Additional Ingredients:</h4>
+                <li>Butter (for toasting the buns)</li>
+                <li>Oil (for cooking the patty)</li>
+            </ol>
+        </div>
+    </section>
+
+
+
+
+    <hr style="opacity: 0.5;">
+    <footer>
+        <h3 style="padding-left: 100px; margin-top: 20px;">Follow Us On Instagram</h3>
+        <div>
+            <img src="./images/footer-1.jpg">
+            <img src="./images/footer-2.jpg">
+            <img src="./images/footer-3.jpg">
+            <img src="./images/footer-4.jpg">
+            <img src="./images/footer-5.jpg">
+            <img src="./images/footer-6.jpg">
+            <img src="./images/footer-7.jpg">
+        </div>
+        <p style="padding-left: 100px; margin-bottom: 20px;">Copyright ©2024 All rights reserved | This web project is
+            made by Subham Trtipathy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

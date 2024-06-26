@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <section>
+        <button id="helpBTN">i</button>
+        <div id="helpBox">
+            <p>
+                Hello, I am <span>Subham Tripathy</span>
+
+                <br>
+
+                I have made this to do web app during my internship at
+                <span>Tech-A-Intern.</span>
+
+                <br>
+
+                This web app stores the task locally in the web browser.
+
+                <br>
+                <br>
+                <br>
+
+                <span style="font-size: 35px; padding: 0 10px; background-color: red; color: white;">How to Use
+                    this?</span>
+
+                <br>
+                <br>
+
+
+
+
+            <div
+                style="position: relative; width: 90%; margin: auto; display: grid; grid-template-columns: auto auto; gap: 50px;">
+
+                <div>
+                    <span class="sideHeading">Add new Task:</span>
+                    <ul>
+                        <li>Enter your task in the input field</li>
+                        <li>Hit the <span>Add Task</span> button</li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <span class="sideHeading">Mark Task as Completed:</span>
+                    <ul>
+                        <li>Click the <span>Tick Mark</span> present on the right side of the task.</li>
+                    </ul>
+                </div>
+
+
+
+                <div>
+                    <span class="sideHeading">Delete Task:</span>
+                    <ul>
+                        <li>Click the <span>Delete</span> button present on the right side of the task.</li>
+                    </ul>
+                </div>
+
+
+
+                <div>
+                    <span class="sideHeading">Edit Task:</span>
+                    <ul>
+                        <li>Click on the text of the task</li>
+                        <li>Hit <span>Enter</span> button to save the modified task</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <p style="background-color: rgba(255, 0, 0, 0.6); padding: 5px 15px; border-radius: 5px; width: max-content; margin: 40px auto;">
+                Hit <span>Escape button</span> to close the Help Box.
+            </p>
+            </p>
+        </div>
+
+
+
+        <div id="hero">
+            <h1>
+                Subham's To Do List
+            </h1>
+            <span>(with local storage)</span>
+        </div>
+
+
+
+
+
+        <div id="input">
+            <input type="text" placeholder="Add your task">
+            <button>Add Task</button>
+        </div>
+
+
+
+
+
+        <div id="taskDiv">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
