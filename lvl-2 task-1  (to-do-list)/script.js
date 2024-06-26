@@ -154,6 +154,7 @@ function loadTasks() {
         p.classList.add(`task${tempCounter}`)
         if (task.completed) {
             p.classList.add('completed')
+            div.style.opacity = '0.5'
         }
         div.appendChild(p)
         div.appendChild(button1)
